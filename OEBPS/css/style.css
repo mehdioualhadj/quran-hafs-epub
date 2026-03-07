@@ -1,0 +1,54 @@
+@font-face {
+	font-family: "UthmanicHafs";
+	src: url("../fonts/UthmanicHafs_V22.ttf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: "UthmanicHafs2";
+    src: url("../fonts/uthmanic_hafs_v22.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: "AmiriArabic";
+	src: url("../fonts/Amiri-Regular.ttf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+p:lang(ar) {
+	text-align: start;
+	line-height: 2;
+	font-family: "UthmanicHafs2", "UthmanicHafs", "AmiriArabic", serif;
+}
+h1 {
+	text-align: center;
+}
+.surah-meta {
+	font-size: 0.9em;
+	font-weight: normal;
+	color: #666666;
+	text-align: center !important;
+}
+.surah-text {
+	font-size: 1.4em;
+	font-feature-settings: "calt" 1, "liga" 1, "rlig" 1;
+}
+.duaa-khatm-text p {
+    text-align: start;
+	font-family: "AmiriArabic", serif;
+	font-size: 1.2em;
+	line-height: 2;
+}
+.ayah-number {
+    display: inline-block;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 0.75em;
+    vertical-align: middle;
+    margin: 0 0.2em;
+}
