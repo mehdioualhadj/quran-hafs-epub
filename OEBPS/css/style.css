@@ -32,7 +32,7 @@ h1 {
 }
 .surah-text {
 	font-size: 1.4em;
-	font-feature-settings: "calt" 1, "liga" 1, "rlig" 1;
+	font-feature-settings: "calt" 1, "liga" 1, "rlig" 1, "ccmp" 1;
 	line-height: 2.2;
 }
 .duaa-khatm-text p {
@@ -53,22 +53,32 @@ h1 {
     vertical-align: middle;
     margin: 0 0.2em;
 }
-.quranic-sign-above {
+ruby.quranic-sign-above,
+ruby.quranic-sign-below {
+    display: inline;
     font-family: "AmiriArabic", serif;
-    font-size: 0.7em;
+    font-size: 0.8em;
     color: #8B4513;
-    vertical-align: 0.15em;
+    ruby-align: center;
 }
 
-.quranic-sign-below {
-    font-family: "AmiriArabic", serif;
-    font-size: 0.7em;
-    color: #8B4513;
-    vertical-align: -0.1em;
+ruby.quranic-sign-above rt {
+    font-size: 0.6em;
 }
+
+ruby.quranic-sign-below {
+    ruby-position: under;
+}
+
+ruby.quranic-sign-below rt {
+    font-size: 0.6em;
+}
+
 .quranic-sign-waqf {
+    display: inline;
     font-family: "AmiriArabic", serif;
-    font-size: 0.7em;
+    font-size: 0.6em;
     color: #8B4513;
-    vertical-align: 0.05em;
+    vertical-align: baseline;
+    line-height: inherit;
 }
