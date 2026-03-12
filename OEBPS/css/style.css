@@ -58,27 +58,55 @@ ruby.quranic-sign-below {
     display: inline;
     font-family: "AmiriArabic", serif;
     font-size: 0.8em;
-    color: #8B4513;
+    color: #B8860B;
     ruby-align: center;
 }
 
-ruby.quranic-sign-above rt {
-    font-size: 0.6em;
-}
-
-ruby.quranic-sign-below {
-    ruby-position: under;
-}
-
-ruby.quranic-sign-below rt {
-    font-size: 0.6em;
-}
+ruby.quranic-sign-above rt { font-size: 0.6em; }
+ruby.quranic-sign-below { ruby-position: under; }
+ruby.quranic-sign-below rt { font-size: 0.6em; }
 
 .quranic-sign-waqf {
     display: inline;
     font-family: "AmiriArabic", serif;
     font-size: 0.6em;
-    color: #8B4513;
+    color: #B8860B;
     vertical-align: baseline;
     line-height: inherit;
+}
+.hizb-marker {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "AmiriArabic", serif;
+	font-weight: bold;
+    color: #B8860B;
+    margin: 0 0.2em;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+.hizb-thumn {
+    font-size: 1.3em;
+    font-weight: bold;
+	line-height: 1;
+}
+
+.hizb-fraction {
+    font-size: 0.75em;
+	font-weight: bold;
+    width: 1.6em;
+    height: 1.6em;
+    border: 1px solid #B8860B;
+    border-radius: 50%;
+}
+
+.hizb-full {
+    font-size: 0.75em;
+    min-width: 1.6em;
+    height: 1.6em;
+    padding: 0 0.3em;
+    border: 2px solid #B8860B;
+    border-radius: 50px;
+    font-weight: bold;
 }
