@@ -45,6 +45,9 @@
 		<item id="amiri-ar"
 			href="fonts/Amiri-Regular.ttf"
 			media-type="font/otf"/>
+		<item id="cover"
+			href="xhtml/cover.xhtml"
+			media-type="application/xhtml+xml"/>
 		<item id="nav"
 			href="xhtml/nav.xhtml"
 			media-type="application/xhtml+xml"
@@ -394,9 +397,13 @@
 		<item id="duaa-khatm"
 			href="xhtml/duaakhatm.xhtml"
 			media-type="application/xhtml+xml"/>
+		<item id="backcover"
+			href="xhtml/backcover.xhtml"
+			media-type="application/xhtml+xml"/>
 	</manifest>
 
 	<spine page-progression-direction="rtl">
+		<itemref idref="cover"/>
 		<itemref idref="nav"/>
 		<itemref idref="sourah-001"/>
 		<itemref idref="sourah-002"/>
@@ -512,6 +519,7 @@
 		<itemref idref="sourah-112"/>
 		<itemref idref="sourah-113"/>
 		<itemref idref="sourah-114"/>
-		<itemref idref="duaa-khatm"/>    
+		<itemref idref="duaa-khatm"/>
+		<itemref idref="backcover"/>
 	</spine>
 </package>

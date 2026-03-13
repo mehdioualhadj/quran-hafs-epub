@@ -85,13 +85,11 @@ ruby.quranic-sign-below rt { font-size: 0.6em; }
     vertical-align: middle;
     line-height: 1;
 }
-
 .hizb-thumn {
     font-size: 1.3em;
     font-weight: bold;
 	line-height: 1;
 }
-
 .hizb-fraction {
     font-size: 0.75em;
 	font-weight: bold;
@@ -100,7 +98,6 @@ ruby.quranic-sign-below rt { font-size: 0.6em; }
     border: 1px solid #B8860B;
     border-radius: 50%;
 }
-
 .hizb-full {
     font-size: 0.75em;
     min-width: 1.6em;
@@ -109,4 +106,67 @@ ruby.quranic-sign-below rt { font-size: 0.6em; }
     border: 2px solid #B8860B;
     border-radius: 50px;
     font-weight: bold;
+}
+.cover-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    padding: 2em;
+}
+.cover-border {
+    border: 3px double #B8860B;
+    outline: 1px solid #B8860B;
+    outline-offset: -8px;
+    padding: 3em 2em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cover-content {
+    text-align: center;
+}
+.cover-title {
+    font-family: "AmiriArabic", serif;
+    font-size: 2.5em;
+    color: #B8860B;
+    margin: 0 0 0.4em 0;
+    font-weight: bold;
+    direction: rtl;
+	text-align: center;
+}
+.cover-riwaya {
+    font-family: "AmiriArabic", serif;
+    font-size: 1.2em;
+    color: #B8860B;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+.colophon-title {
+    font-family: "AmiriArabic", serif;
+    font-size: 1.3em;
+    color: #B8860B;
+    font-weight: bold;
+    margin: 0 0 1em 0;
+}
+.colophon-item {
+    font-family: "AmiriArabic", serif;
+    font-size: 1em;
+    color: #444444;
+    margin: 0.4em 0;
+}
+.tazyeen {
+    text-align: center;
+    color: #B8860B;
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-top: 2em;
+	text-weight: bold;
+}
+.tazyeen p {
+    margin: 0;
+    padding: 0;
+    text-align: center !important;
 }
