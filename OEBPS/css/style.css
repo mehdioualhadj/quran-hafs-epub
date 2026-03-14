@@ -190,25 +190,104 @@ ruby.quranic-sign-below rt { font-size: 0.6em; }
     font-size: 1em;
     color: #B8860B;
     margin: 0 0 1.5em 0;
+	text-align: center;
 }
 .dedication-text {
     font-family: "AmiriArabic", serif;
-    font-size: 0.7em;
+    font-size: 1em;
     color: #333333;
     line-height: 2.2;
     margin: 0 0 1.5em 0;
+	text-align: center;
 }
 .dedication-duaa {
     font-family: "AmiriArabic", serif;
-    font-size: 0.8em;
+    font-size: 1em;
     color: #333333;
     line-height: 2.2;
     margin: 0 0 1em 0;
     font-style: italic;
+	text-align: center;
 }
 .dedication-ameen {
     font-family: "AmiriArabic", serif;
     font-size: 1em;
     color: #B8860B;
     margin: 0;
+	text-align: center;
+}
+.muqaddima-page {
+    padding: 2em 1.5em;
+    text-align: right;
+    direction: rtl;
+}
+.muqaddima-title {
+    font-family: "AmiriArabic", serif;
+    font-size: 1.8em;
+    color: #B8860B;
+    text-align: center;
+    margin: 0 0 1em 0;
+}
+.muqaddima-section {
+    font-family: "AmiriArabic", serif;
+    font-size: 1.2em;
+    color: #B8860B;
+    margin: 1.5em 0 0.5em 0;
+    border-bottom: 1px solid #B8860B;
+    padding-bottom: 0.2em;
+}
+.muqaddima-intro {
+    font-family: "AmiriArabic", serif;
+    font-size: 1em;
+    color: #333333;
+    line-height: 2;
+    text-align: right;
+    margin: 0 0 1em 0;
+}
+.muqaddima-body {
+    font-family: "AmiriArabic", serif;
+    font-size: 1em;
+    color: #333333;
+    line-height: 2;
+    margin: 0 0 0.8em 0;
+    text-align: right;
+}
+.muqaddima-list {
+    font-family: "AmiriArabic", serif;
+    font-size: 0.95em;
+    color: #333333;
+    line-height: 2;
+    padding-right: 1em;
+    margin: 0 0 1em 0;
+    text-align: right;
+}
+.muqaddima-source {
+    color: #B8860B;
+    font-style: italic;
+}
+.muqaddima-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "AmiriArabic", serif;
+    font-size: 0.8em;
+    margin: 0.5em 0 1.5em 0;
+}
+.muqaddima-table-header {
+    font-weight: bold;
+    font-size: 1em;
+    color: #B8860B;
+    border: 2px solid #333333;
+    padding: 0.4em 0.8em;
+    text-align: center;
+    background-color: #fdf8ee;
+}
+.muqaddima-table td {
+    border: 1px solid #333333;
+    padding: 0.3em 0.5em;
+    text-align: center;
+    color: #333333;
+    vertical-align: middle;
+}
+.muqaddima-table tr:nth-child(even) td {
+    background-color: #fdf8ee;
 }
