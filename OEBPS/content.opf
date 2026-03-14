@@ -48,6 +48,9 @@
 		<item id="cover"
 			href="xhtml/cover.xhtml"
 			media-type="application/xhtml+xml"/>
+		<item id="dedication"
+			href="xhtml/dedication.xhtml"
+			media-type="application/xhtml+xml"/>
 		<item id="nav"
 			href="xhtml/nav.xhtml"
 			media-type="application/xhtml+xml"
@@ -404,6 +407,7 @@
 
 	<spine page-progression-direction="rtl">
 		<itemref idref="cover"/>
+		<itemref idref="dedication"/>
 		<itemref idref="nav"/>
 		<itemref idref="sourah-001"/>
 		<itemref idref="sourah-002"/>

@@ -108,54 +108,65 @@ ruby.quranic-sign-below rt { font-size: 0.6em; }
     font-weight: bold;
 }
 .cover-page {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 90vh;
-    padding: 2em;
+    padding: 15% 1em;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
 }
 .cover-border {
-    border: 3px double #B8860B;
+    border: 2px double #B8860B;
     outline: 1px solid #B8860B;
-    outline-offset: -8px;
-    padding: 3em 2em;
-    width: 100%;
+    outline-offset: -6px;
+    padding: 2em 1em;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+.cover-center {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: flex-start;
+    width: 100%;
 }
 .cover-content {
     text-align: center;
 }
 .cover-title {
     font-family: "AmiriArabic", serif;
-    font-size: 2.5em;
+    font-size: 1.5em;
     color: #B8860B;
-    margin: 0 0 0.4em 0;
+    margin: 0 0 0 0;
     font-weight: bold;
+    text-align: center;
     direction: rtl;
-	text-align: center;
+    white-space: nowrap;
 }
+
 .cover-riwaya {
     font-family: "AmiriArabic", serif;
-    font-size: 1.2em;
+    font-size: 0.8em;
     color: #B8860B;
     margin: 0;
     text-align: center;
+    direction: rtl;
     letter-spacing: 0.05em;
+    white-space: nowrap;
 }
 .colophon-title {
     font-family: "AmiriArabic", serif;
-    font-size: 1.3em;
+    font-size: 1.1em;
     color: #B8860B;
     font-weight: bold;
     margin: 0 0 1em 0;
+    white-space: nowrap;
 }
 .colophon-item {
     font-family: "AmiriArabic", serif;
-    font-size: 1em;
+    font-size: 0.7em;
     color: #444444;
     margin: 0.4em 0;
+    white-space: nowrap;
 }
 .tazyeen {
     text-align: center;
@@ -169,4 +180,35 @@ ruby.quranic-sign-below rt { font-size: 0.6em; }
     margin: 0;
     padding: 0;
     text-align: center !important;
+}
+.dedication-page {
+    padding: 20% 2em;
+    text-align: center;
+}
+.dedication-basmala {
+    font-family: "AmiriArabic", serif;
+    font-size: 1em;
+    color: #B8860B;
+    margin: 0 0 1.5em 0;
+}
+.dedication-text {
+    font-family: "AmiriArabic", serif;
+    font-size: 0.7em;
+    color: #333333;
+    line-height: 2.2;
+    margin: 0 0 1.5em 0;
+}
+.dedication-duaa {
+    font-family: "AmiriArabic", serif;
+    font-size: 0.8em;
+    color: #333333;
+    line-height: 2.2;
+    margin: 0 0 1em 0;
+    font-style: italic;
+}
+.dedication-ameen {
+    font-family: "AmiriArabic", serif;
+    font-size: 1em;
+    color: #B8860B;
+    margin: 0;
 }
