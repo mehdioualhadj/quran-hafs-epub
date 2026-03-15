@@ -22,18 +22,31 @@ p:lang(ar) {
 	font-family: "UthmanicHafs2", "UthmanicHafs", "AmiriArabic", serif;
 }
 h1 {
-	text-align: center;
+    font-family: "AmiriArabic", serif;
+    font-size: 1.5em;
+    color: #B8860B;
+    text-align: center;
+    margin: 0 0 0.3em 0;
 }
 .surah-meta {
-	font-size: 0.9em;
-	font-weight: normal;
-	color: #666666;
-	text-align: center !important;
+    font-family: "AmiriArabic", serif;
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #B8860B;
+    text-align: center !important;
 }
 .surah-text {
 	font-size: 1.4em;
 	font-feature-settings: "calt" 1, "liga" 1, "rlig" 1, "ccmp" 1;
 	line-height: 2.2;
+}
+.duaa-title {
+    font-family: "AmiriArabic", serif;
+    font-size: 1.5em;
+	font-weight: bold;
+    color: #B8860B;
+    text-align: center !important;
+    margin: 0 0 1em 0;
 }
 .duaa-khatm-text p {
     text-align: start;
@@ -290,4 +303,28 @@ ruby.quranic-sign-below rt { font-size: 0.6em; }
 }
 .muqaddima-table tr:nth-child(even) td {
     background-color: #fdf8ee;
+}
+.ahzab-title {
+    font-family: "AmiriArabic", serif;
+    font-size: 1.5em;
+    color: #B8860B;
+    text-align: center;
+    margin: 0 0 1em 0;
+}
+.ahzab-list {
+    line-height: 1.2;
+    list-style: disc;
+    padding-right: 1.5em;
+    margin: 0;
+}
+.ahzab-list a {
+    color: #0645ad;
+    text-decoration: underline;
+}
+.nav-title {
+    font-family: "AmiriArabic", serif;
+    font-size: 1.5em;
+    color: #B8860B;
+    text-align: center;
+    margin: 0 0 1em 0;
 }

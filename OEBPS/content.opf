@@ -58,6 +58,9 @@
 			href="xhtml/nav.xhtml"
 			media-type="application/xhtml+xml"
 			properties="nav"/>
+		<item id="ahzab"
+			href="xhtml/ahzab.xhtml"
+			media-type="application/xhtml+xml"/>
 		<item id="sourah-001"
 			href="xhtml/sourah001.xhtml"
 			media-type="application/xhtml+xml"/>
@@ -413,6 +416,7 @@
 		<itemref idref="dedication"/>
 		<itemref idref="muqaddima"/>
 		<itemref idref="nav"/>
+		<itemref idref="ahzab"/>
 		<itemref idref="sourah-001"/>
 		<itemref idref="sourah-002"/>
 		<itemref idref="sourah-003"/>
