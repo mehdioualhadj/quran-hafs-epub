@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package version="3.0"
-         xmlns="http://www.idpf.org/2007/opf"
-         unique-identifier="book-id"
-         dir="rtl"
-         xml:lang="ar">
+<package xmlns="http://www.idpf.org/2007/opf"
+		 xmlns:ibooks="http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/"
+		 version="3.0"
+		 unique-identifier="book-id"
+		 dir="rtl"
+		 xml:lang="ar">
 
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 
@@ -41,57 +42,57 @@
 		Quranic text sourced from Tanzil.net,
 		typeset in the KFGQPC Uthmanic Hafs V22 font.
 		Prepared as a Sadaqa Jariya (ongoing charity).
-	</dc:description>
+		</dc:description>
 
-	<!-- Subjects -->
-	<dc:subject>القرآن الكريم</dc:subject>
-	<dc:subject>رواية حفص عن عاصم</dc:subject>
-	<dc:subject>مصحف رقمي</dc:subject>
-	<dc:subject>Quran</dc:subject>
-	<dc:subject>Hafs an Asim</dc:subject>
-	<dc:subject>Digital Mushaf</dc:subject>
+		<!-- Subjects -->
+		<dc:subject>القرآن الكريم</dc:subject>
+		<dc:subject>رواية حفص عن عاصم</dc:subject>
+		<dc:subject>مصحف رقمي</dc:subject>
+		<dc:subject>Quran</dc:subject>
+		<dc:subject>Hafs an Asim</dc:subject>
+		<dc:subject>Digital Mushaf</dc:subject>
 
-	<!-- Publisher and date -->
-	<dc:publisher>المهدي والحاج</dc:publisher>
-	<dc:date>2026-03-13</dc:date>
-	<meta property="dcterms:modified">2026-03-13T00:00:00Z</meta>
+		<!-- Publisher and date -->
+		<dc:publisher>المهدي والحاج</dc:publisher>
+		<dc:date>2026-03-13</dc:date>
+		<meta property="dcterms:modified">2026-03-13T00:00:00Z</meta>
 
-	<!-- Sources -->
-	<dc:source>https://tanzil.net</dc:source>
-	<dc:source>https://fonts.qurancomplex.gov.sa/ten-readings</dc:source>
-	<dc:source>https://amirifont.org</dc:source>
+		<!-- Sources -->
+		<dc:source>https://tanzil.net</dc:source>
+		<dc:source>https://fonts.qurancomplex.gov.sa/ten-readings</dc:source>
+		<dc:source>https://amirifont.org</dc:source>
 
-	<!-- Rights -->
-	<dc:rights xml:lang="ar">
-		هذا المصحف صدقة جارية. يُسمح بنشره وتوزيعه مجاناً مع الإشارة إلى المصدر.
-		النص القرآني من Tanzil.net — خط المصحف من KFGQPC — خط Amiri مفتوح المصدر.
-	</dc:rights>
-	<dc:rights xml:lang="en">
-		This Mushaf is a Sadaqa Jariya (ongoing charity). Free to share and distribute
-		with attribution. Quranic text from Tanzil.net — Mushaf font from KFGQPC —
-		Amiri font is open source under the SIL Open Font License.
-	</dc:rights>
+		<!-- Rights -->
+		<dc:rights xml:lang="ar">
+			هذا المصحف صدقة جارية. يُسمح بنشره وتوزيعه مجاناً مع الإشارة إلى المصدر.
+			النص القرآني من Tanzil.net — خط المصحف من KFGQPC — خط Amiri مفتوح المصدر.
+		</dc:rights>
+		<dc:rights xml:lang="en">
+			This Mushaf is a Sadaqa Jariya (ongoing charity). Free to share and distribute
+			with attribution. Quranic text from Tanzil.net — Mushaf font from KFGQPC —
+			Amiri font is open source under the SIL Open Font License.
+		</dc:rights>
 
-	<!-- Apple Books font declaration -->
-	<meta property="ibooks:specified-fonts">true</meta>
+		<!-- Apple Books font declaration -->
+		<meta name="ibooks:specified-fonts" content="true"/>
 
-	<!-- Accessibility -->
-	<meta property="schema:accessMode">textual</meta>
-	<meta property="schema:accessMode">visual</meta>
-	<meta property="schema:accessModeSufficient">textual</meta>
-	<meta property="schema:accessibilityFeature">readingOrder</meta>
-	<meta property="schema:accessibilityFeature">structuralNavigation</meta>
-	<meta property="schema:accessibilityHazard">none</meta>
-	<meta property="schema:accessibilitySummary">
-		يحتوي هذا الكتاب الإلكتروني على نص القرآن الكريم كاملاً باللغة العربية برواية حفص عن عاصم،
-		مع علامات تقسيم النص وعلامات الوقف والابتداء.
-	</meta>
-	<meta property="schema:accessibilitySummary" xml:lang="en">
-		This EPUB contains the complete text of the Quran in Arabic in the Hafs an Asim recitation,
-		with full text division markers and Waqf pause marks.
-	</meta>
+		<!-- Accessibility -->
+		<meta property="schema:accessMode">textual</meta>
+		<meta property="schema:accessMode">visual</meta>
+		<meta property="schema:accessModeSufficient">textual</meta>
+		<meta property="schema:accessibilityFeature">readingOrder</meta>
+		<meta property="schema:accessibilityFeature">structuralNavigation</meta>
+		<meta property="schema:accessibilityHazard">none</meta>
+		<meta property="schema:accessibilitySummary">
+			يحتوي هذا الكتاب الإلكتروني على نص القرآن الكريم كاملاً باللغة العربية برواية حفص عن عاصم،
+			مع علامات تقسيم النص وعلامات الوقف والابتداء.
+		</meta>
+		<meta property="schema:accessibilitySummary" xml:lang="en">
+			This EPUB contains the complete text of the Quran in Arabic in the Hafs an Asim recitation,
+			with full text division markers and Waqf pause marks.
+		</meta>
 
-</metadata>
+	</metadata>
 
 	<manifest>
 		<item id="style"

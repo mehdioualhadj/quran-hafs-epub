@@ -32,7 +32,7 @@ h1 {
     font-family: "AmiriArabic", serif;
     font-size: 0.9em;
     font-weight: normal;
-    color: #B8860B;
+    color: #8A6500;
     text-align: center !important;
 }
 .surah-text {
@@ -152,7 +152,6 @@ ruby.quranic-sign-below rt { font-size: 0.6em; }
     margin: 0 0 0 0;
     font-weight: bold;
     text-align: center;
-    direction: rtl;
     white-space: nowrap;
 }
 
@@ -162,7 +161,6 @@ ruby.quranic-sign-below rt { font-size: 0.6em; }
     color: #B8860B;
     margin: 0;
     text-align: center;
-    direction: rtl;
     letter-spacing: 0.05em;
     white-space: nowrap;
 }
@@ -232,7 +230,6 @@ ruby.quranic-sign-below rt { font-size: 0.6em; }
 .muqaddima-page {
     padding: 2em 1.5em;
     text-align: right;
-    direction: rtl;
 }
 .muqaddima-title {
     font-family: "AmiriArabic", serif;
