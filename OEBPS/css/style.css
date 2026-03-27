@@ -55,16 +55,20 @@ h1 {
 	line-height: 2;
 }
 .ayah-number {
-    display: inline-block;
-    border: 1px solid currentColor;
-    border-radius: 50%;
-    width: 1.5em;
-    height: 1.5em;
-    text-align: center;
-    line-height: 1.5em;
-    font-size: 0.75em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "AmiriArabic", serif;
+    font-size: 0.55em;
+    font-weight: bold;
+    border: 1.5px solid currentColor;
+    border-radius: 6px;
+    width: 2.5em;
+    height: 1.8em;
     vertical-align: middle;
     margin: 0 0.2em;
+    box-sizing: border-box;
+    line-height: 1;
 }
 ruby.quranic-sign-above,
 ruby.quranic-sign-below {
