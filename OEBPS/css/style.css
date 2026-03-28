@@ -28,6 +28,30 @@ h1 {
     text-align: center;
     margin: 0 0 0.3em 0;
 }
+table.surah-divider-top {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2em;
+    margin-bottom: 0.8em;
+}
+table.surah-divider-bottom {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}
+.div-line-thick {
+    border-bottom: 4px solid #B8860B;
+    width: 100%;
+    padding: 2px 0;
+    height: 2px;
+}
+.div-line-thin {
+    border-bottom: 1px solid #B8860B;
+    width: 100%;
+    padding: 2px 0;
+    height: 2px;
+}
 .surah-meta {
     font-family: "AmiriArabic", serif;
     font-size: 0.9em;
