@@ -5,10 +5,10 @@
 	font-style: normal;
 }
 @font-face {
-    font-family: "UthmanicHafs2";
-    src: url("../fonts/uthmanic_hafs_v22.ttf") format("opentype");
-    font-weight: normal;
-    font-style: normal;
+	font-family: "UthmanicHafs2";
+	src: url("../fonts/uthmanic_hafs_v22.ttf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
 }
 @font-face {
 	font-family: "AmiriArabic";
@@ -22,85 +22,92 @@ p:lang(ar) {
 	font-family: "UthmanicHafs2", "UthmanicHafs", "AmiriArabic", serif;
 }
 h1 {
-    font-family: "AmiriArabic", serif;
-    font-size: 1.5em;
-    color: #B8860B;
-    text-align: center;
-    margin: 0 0 0.3em 0;
+	font-family: "AmiriArabic", serif;
+	font-size: 1.5em;
+	color: #B8860B;
+	text-align: center;
+	margin: 0 0 0.3em 0;
 }
 table.surah-divider-top {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 2em;
-    margin-bottom: 0.8em;
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 2em;
+	margin-bottom: 0.8em;
 }
 table.surah-divider-bottom {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 0.8em;
-    margin-bottom: 0.8em;
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 0.8em;
+	margin-bottom: 0.8em;
 }
 .div-line-thick {
-    border-bottom: 4px solid #B8860B;
-    width: 100%;
-    padding: 2px 0;
-    height: 2px;
+	border-bottom: 4px solid #B8860B;
+	width: 100%;
+	padding: 2px 0;
+	height: 2px;
 }
 .div-line-thin {
-    border-bottom: 1px solid #B8860B;
-    width: 100%;
-    padding: 2px 0;
-    height: 2px;
+	border-bottom: 1px solid #B8860B;
+	width: 100%;
+	padding: 2px 0;
+	height: 2px;
 }
 .surah-meta {
-    font-family: "AmiriArabic", serif;
-    font-size: 0.9em;
-    font-weight: normal;
-    color: #8A6500;
-    text-align: center !important;
+	font-family: "AmiriArabic", serif;
+	font-size: 0.9em;
+	font-weight: normal;
+	color: #8A6500;
+	text-align: center !important;
 }
 .surah-text {
 	font-size: 1.4em;
 	font-feature-settings: "calt" 1, "liga" 1, "rlig" 1, "ccmp" 1;
 	line-height: 2.2;
 }
+section[role="doc-afterword"] {
+    padding-top: 6em;
+}
 .duaa-title {
     font-family: "AmiriArabic", serif;
     font-size: 1.5em;
-	font-weight: bold;
     color: #B8860B;
     text-align: center !important;
-    margin: 0 0 1em 0;
+    margin: 0 0 0.5em 0;
+}
+.duaa-khatm-text {
+	padding-top: 1em;
+	padding-bottom: 6em;
 }
 .duaa-khatm-text p {
-    text-align: start;
+	text-align: start;
 	font-family: "AmiriArabic", serif;
 	font-size: 1.2em;
 	line-height: 2;
+	
 }
 .ayah-number {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "AmiriArabic", serif;
-    font-size: 0.55em;
-    font-weight: bold;
-    border: 1.5px solid currentColor;
-    border-radius: 6px;
-    width: 2.5em;
-    height: 1.8em;
-    vertical-align: middle;
-    margin: 0 0.2em;
-    box-sizing: border-box;
-    line-height: 1;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "AmiriArabic", serif;
+	font-size: 0.55em;
+	font-weight: bold;
+	border: 1.5px solid currentColor;
+	border-radius: 6px;
+	width: 2.5em;
+	height: 1.8em;
+	vertical-align: middle;
+	margin: 0 0.2em;
+	box-sizing: border-box;
+	line-height: 1;
 }
 ruby.quranic-sign-above,
 ruby.quranic-sign-below {
-    display: inline;
-    font-family: "AmiriArabic", serif;
-    font-size: 0.8em;
-    color: #B8860B;
-    ruby-align: center;
+	display: inline;
+	font-family: "AmiriArabic", serif;
+	font-size: 0.8em;
+	color: #B8860B;
+	ruby-align: center;
 }
 
 ruby.quranic-sign-above rt { font-size: 0.6em; }
@@ -108,248 +115,251 @@ ruby.quranic-sign-below { ruby-position: under; }
 ruby.quranic-sign-below rt { font-size: 0.6em; }
 
 .quranic-sign-waqf {
-    display: inline;
-    font-family: "AmiriArabic", serif;
-    font-size: 0.6em;
-    color: #B8860B;
-    vertical-align: baseline;
-    line-height: inherit;
+	display: inline;
+	font-family: "AmiriArabic", serif;
+	font-size: 0.6em;
+	color: #B8860B;
+	vertical-align: baseline;
+	line-height: inherit;
 }
 .hizb-marker {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "AmiriArabic", serif;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "AmiriArabic", serif;
 	font-weight: bold;
-    color: #B8860B;
-    margin: 0 0.2em;
-    vertical-align: middle;
-    line-height: 1;
+	color: #B8860B;
+	margin: 0 0.2em;
+	vertical-align: middle;
+	line-height: 1;
 }
 .hizb-thumn {
-    font-size: 1.3em;
-    font-weight: bold;
+	font-size: 1.3em;
+	font-weight: bold;
 	line-height: 1;
 }
 .hizb-fraction {
-    font-size: 0.75em;
+	font-size: 0.75em;
 	font-weight: bold;
-    width: 1.6em;
-    height: 1.6em;
-    border: 1px solid #B8860B;
-    border-radius: 50%;
+	width: 1.6em;
+	height: 1.6em;
+	border: 1px solid #B8860B;
+	border-radius: 50%;
 }
 .hizb-full {
-    font-size: 0.75em;
-    min-width: 1.6em;
-    height: 1.6em;
-    padding: 0 0.3em;
-    border: 2px solid #B8860B;
-    border-radius: 50px;
-    font-weight: bold;
+	font-size: 0.75em;
+	min-width: 1.6em;
+	height: 1.6em;
+	padding: 0 0.3em;
+	border: 2px solid #B8860B;
+	border-radius: 50px;
+	font-weight: bold;
 }
 .cover-page {
-    padding: 15% 1em;
-    text-align: center;
-    width: 100%;
-    box-sizing: border-box;
+	padding: 15% 1em;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
 }
 .cover-border {
-    border: 2px double #B8860B;
-    outline: 1px solid #B8860B;
-    outline-offset: -6px;
-    padding: 2em 1em;
-    display: inline-block;
-    text-align: center;
-    box-sizing: border-box;
-    white-space: nowrap;
+	border: 2px double #B8860B;
+	outline: 1px solid #B8860B;
+	outline-offset: -6px;
+	padding: 2em 1em;
+	display: inline-block;
+	text-align: center;
+	box-sizing: border-box;
+	white-space: nowrap;
 }
 .cover-center {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width: 100%;
 }
 .cover-content {
-    text-align: center;
+	text-align: center;
 }
 .cover-title {
-    font-family: "AmiriArabic", serif;
-    font-size: 1.5em;
-    color: #B8860B;
-    margin: 0 0 0 0;
-    font-weight: bold;
-    text-align: center;
-    white-space: nowrap;
+	font-family: "AmiriArabic", serif;
+	font-size: 1.5em;
+	color: #B8860B;
+	margin: 0 0 0 0;
+	font-weight: bold;
+	text-align: center;
+	white-space: nowrap;
 }
-
 .cover-riwaya {
-    font-family: "AmiriArabic", serif;
-    font-size: 0.8em;
-    color: #B8860B;
-    margin: 0;
-    text-align: center;
-    letter-spacing: 0.05em;
-    white-space: nowrap;
+	font-family: "AmiriArabic", serif;
+	font-size: 0.8em;
+	color: #B8860B;
+	margin: 0;
+	text-align: center;
+	letter-spacing: 0.05em;
+	white-space: nowrap;
 }
 .colophon-title {
-    font-family: "AmiriArabic", serif;
-    font-size: 1.1em;
-    color: #B8860B;
-    font-weight: bold;
-    margin: 0 0 1em 0;
-    white-space: nowrap;
+	font-family: "AmiriArabic", serif;
+	font-size: 1.1em;
+	color: #B8860B;
+	font-weight: bold;
+	margin: 0 0 1em 0;
+	white-space: nowrap;
 }
 .colophon-item {
-    font-family: "AmiriArabic", serif;
-    font-size: 0.7em;
-    color: #444444;
-    margin: 0.4em 0;
-    white-space: nowrap;
+	font-family: "AmiriArabic", serif;
+	font-size: 0.7em;
+	color: #444444;
+	margin: 0.4em 0;
+	white-space: nowrap;
 }
 .tazyeen {
-    text-align: center;
-    color: #B8860B;
-    font-size: 1.2em;
-    line-height: 1.8;
-    margin-top: 2em;
-	text-weight: bold;
+	text-align: center;
+	color: #B8860B;
+	font-size: 1.2em;
+	line-height: 1.8;
+	margin-top: 2em;
+	margin-bottom: 4em;
 }
 .tazyeen p {
-    margin: 0;
-    padding: 0;
-    text-align: center !important;
+	margin: 0;
+	padding: 0;
+	text-align: center !important;
 }
 .dedication-page {
-    padding: 20% 2em;
-    text-align: center;
+	padding: 20% 2em 6em 2em;
+	text-align: center;
 }
 .dedication-basmala {
-    font-family: "AmiriArabic", serif;
-    font-size: 1em;
-    color: #B8860B;
-    margin: 0 0 1.5em 0;
+	font-family: "AmiriArabic", serif;
+	font-size: 1em;
+	color: #B8860B;
+	margin: 0 0 1.5em 0;
 	text-align: center;
 }
 .dedication-text {
-    font-family: "AmiriArabic", serif;
-    font-size: 1em;
-    color: #333333;
-    line-height: 2.2;
-    margin: 0 0 1.5em 0;
+	font-family: "AmiriArabic", serif;
+	font-size: 1em;
+	color: #333333;
+	line-height: 2.2;
+	margin: 0 0 1.5em 0;
 	text-align: center;
 }
 .dedication-duaa {
-    font-family: "AmiriArabic", serif;
-    font-size: 1em;
-    color: #333333;
-    line-height: 2.2;
-    margin: 0 0 1em 0;
-    font-style: italic;
+	font-family: "AmiriArabic", serif;
+	font-size: 1em;
+	color: #333333;
+	line-height: 2.2;
+	margin: 0 0 1em 0;
+	font-style: italic;
 	text-align: center;
 }
 .dedication-ameen {
-    font-family: "AmiriArabic", serif;
-    font-size: 1em;
-    color: #B8860B;
-    margin: 0;
+	font-family: "AmiriArabic", serif;
+	font-size: 1em;
+	color: #B8860B;
+	margin: 0;
 	text-align: center;
 }
 .muqaddima-page {
-    padding: 2em 1.5em;
-    text-align: right;
+	padding: 2em 1.5em 6em 1.5em;
+	text-align: right;
 }
 .muqaddima-title {
-    font-family: "AmiriArabic", serif;
-    font-size: 1.8em;
-    color: #B8860B;
-    text-align: center;
-    margin: 0 0 1em 0;
+	font-family: "AmiriArabic", serif;
+	font-size: 1.8em;
+	color: #B8860B;
+	text-align: center;
+	margin: 0 0 1em 0;
 }
 .muqaddima-section {
-    font-family: "AmiriArabic", serif;
-    font-size: 1.2em;
-    color: #B8860B;
-    margin: 1.5em 0 0.5em 0;
-    border-bottom: 1px solid #B8860B;
-    padding-bottom: 0.2em;
+	font-family: "AmiriArabic", serif;
+	font-size: 1.2em;
+	color: #B8860B;
+	margin: 1.5em 0 0.5em 0;
+	border-bottom: 1px solid #B8860B;
+	padding-bottom: 0.2em;
 }
 .muqaddima-intro {
-    font-family: "AmiriArabic", serif;
-    font-size: 1em;
-    color: #333333;
-    line-height: 2;
-    text-align: right;
-    margin: 0 0 1em 0;
+	font-family: "AmiriArabic", serif;
+	font-size: 1em;
+	color: #333333;
+	line-height: 2;
+	text-align: right;
+	margin: 0 0 1em 0;
 }
 .muqaddima-body {
-    font-family: "AmiriArabic", serif;
-    font-size: 1em;
-    color: #333333;
-    line-height: 2;
-    margin: 0 0 0.8em 0;
-    text-align: right;
+	font-family: "AmiriArabic", serif;
+	font-size: 1em;
+	color: #333333;
+	line-height: 2;
+	margin: 0 0 0.8em 0;
+	text-align: right;
 }
 .muqaddima-list {
-    font-family: "AmiriArabic", serif;
-    font-size: 0.95em;
-    color: #333333;
-    line-height: 2;
-    padding-right: 1em;
-    margin: 0 0 1em 0;
-    text-align: right;
+	font-family: "AmiriArabic", serif;
+	font-size: 0.95em;
+	color: #333333;
+	line-height: 2;
+	padding-right: 1em;
+	margin: 0 0 1em 0;
+	text-align: right;
 }
 .muqaddima-source {
-    color: #B8860B;
-    font-style: italic;
+	color: #B8860B;
+	font-style: italic;
 }
 .muqaddima-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-family: "AmiriArabic", serif;
-    font-size: 0.8em;
-    margin: 0.5em 0 1.5em 0;
+	width: 100%;
+	border-collapse: collapse;
+	font-family: "AmiriArabic", serif;
+	font-size: 0.8em;
+	margin: 0.5em 0 1.5em 0;
 }
 .muqaddima-table-header {
-    font-weight: bold;
-    font-size: 1em;
-    color: #B8860B;
-    border: 2px solid #333333;
-    padding: 0.4em 0.8em;
-    text-align: center;
-    background-color: #fdf8ee;
+	font-weight: bold;
+	font-size: 1em;
+	color: #B8860B;
+	border: 2px solid #333333;
+	padding: 0.4em 0.8em;
+	text-align: center;
+	background-color: #fdf8ee;
 }
 .muqaddima-table td {
-    border: 1px solid #333333;
-    padding: 0.3em 0.5em;
-    text-align: center;
-    color: #333333;
-    vertical-align: middle;
+	border: 1px solid #333333;
+	padding: 0.3em 0.5em;
+	text-align: center;
+	color: #333333;
+	vertical-align: middle;
 }
 .muqaddima-table tr:nth-child(even) td {
-    background-color: #fdf8ee;
+	background-color: #fdf8ee;
+}
+section[role="doc-index"] {
+    padding-top: 6em;
 }
 .ahzab-title {
-    font-family: "AmiriArabic", serif;
-    font-size: 1.5em;
-    color: #B8860B;
-    text-align: center;
-    margin: 0 0 1em 0;
+	font-family: "AmiriArabic", serif;
+	font-size: 1.5em;
+	color: #B8860B;
+	text-align: center;
+	margin: 0 0 1em 0;
 }
 .ahzab-list {
-    line-height: 1.2;
-    list-style: disc;
-    padding-right: 1.5em;
-    margin: 0;
+	line-height: 1.2;
+	list-style: disc;
+	padding-right: 1.5em;
+	padding-bottom: 6em;
+	margin: 0;
 }
 .ahzab-list a {
-    color: #0645ad;
-    text-decoration: underline;
+	color: #0645ad;
+	text-decoration: underline;
 }
 .nav-title {
-    font-family: "AmiriArabic", serif;
-    font-size: 1.5em;
-    color: #B8860B;
-    text-align: center;
-    margin: 0 0 1em 0;
+	font-family: "AmiriArabic", serif;
+	font-size: 1.5em;
+	color: #B8860B;
+	text-align: center;
+	margin: 0 0 1em 0;
 }
