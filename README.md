@@ -87,8 +87,8 @@ Output is saved to `_dev/output/quran-hafs.epub`.
 
 ## License
 
-- **Code** — MIT License — see [LICENSE-CODE](LICENSE-CODE)
-- **EPUB output** — Creative Commons CC BY-SA 4.0 — see [LICENSE-CONTENT](LICENSE-CONTENT)
+- **Code** — CC BY-NC-SA 4.0 — see [LICENSE-CODE](LICENSE-CODE)
+- **EPUB output** — CC BY-NC-SA 4.0 — see [LICENSE-CONTENT](LICENSE-CONTENT)
 - **Quranic text** — © Tanzil.net — redistribution with attribution permitted
 - **Fonts** — SIL Open Font License
 
